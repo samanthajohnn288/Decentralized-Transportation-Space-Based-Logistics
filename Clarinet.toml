@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.mission-coordination]
+path = 'contracts/mission-coordination.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.orbital-logistics]
 path = 'contracts/orbital-logistics.clar'
 clarity_version = 2
